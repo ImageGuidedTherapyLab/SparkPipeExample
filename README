@@ -1,0 +1,39 @@
+Adapted from: http://blog.madhukaraphatak.com/pipe-in-spark/
+
+Usage
+=====
+
+$ python pipeline.py --pipe
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel).
+16/09/07 16:04:44 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+hi
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+hello
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+how
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+are
+Running shell script
+Running shell script
+Running shell script
+Running shell script
+you
