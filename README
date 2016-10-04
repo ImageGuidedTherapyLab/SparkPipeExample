@@ -2,6 +2,11 @@ Adapted from: http://blog.madhukaraphatak.com/pipe-in-spark/
 
 Usage
 =====
+$ bsub < spark.lsf
+
+
+Usage
+=====
 
 $ python pipeline.py --pipe
 Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties

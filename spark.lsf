@@ -1,0 +1,12 @@
+#BSUB –J JobName
+#BSUB –n 36
+#BSUB –q short
+#BSUB –W 0:10
+#BSUB –M 8192
+#BSUB -R rusage[mem=8192]
+#BSUB –R rusage[spark=1]
+#BSUB –R span[ptile=24]
+#BSUB –cwd /rsrch1/ip/dtfuentes/github/SparkPipeExample/
+#BSUB -o /rsrch1/ip/dtfuentes/github/SparkPipeExample/
+#BSUB -e /rsrch1/ip/dtfuentes/github/SparkPipeExample/
+lsf-spark-submit.sh /rsrch1/ip/dtfuentes/github/SparkPipeExample/pipeline.py --pipe
