@@ -20,7 +20,7 @@ if (options.pipe):
   makerdd= sc.parallelize( ["hi","hello","how","are","you"] )
                             
   # http://blog.madhukaraphatak.com/pipe-in-spark/
-  outputframe = makerdd.pipe("./echo.sh").collect()
+  outputframe = makerdd.pipe("/rsrch2/ip/dtfuentes/github/SparkPipeExample/echo.sh").collect()
   
   ## pipe() returns strings
   #
