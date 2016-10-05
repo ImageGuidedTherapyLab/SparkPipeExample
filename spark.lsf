@@ -8,11 +8,11 @@
 #BSUB -R rusage[spark=1]
 #BSUB -R span[ptile=12]
 #BSUB -cwd /rsrch2/ip/dtfuentes/github/SparkPipeExample/
-#BSUB -o /rsrch2/ip/dtfuentes/github/SparkPipeExample/
-#BSUB -e /rsrch2/ip/dtfuentes/github/SparkPipeExample/
-export SPARK_WORKER_DIR=/rsrch2/ip/dtfuentes/github/SparkPipeExample/
-export SPARK_WORK_DIR=/rsrch2/ip/dtfuentes/github/SparkPipeExample/
-export SPARK_LOG_DIR=/rsrch2/ip/dtfuentes/github/SparkPipeExample/
+#BSUB -o .
+#BSUB -e .
+export SPARK_WORKER_DIR=`pwd`
+export SPARK_WORK_DIR=`pwd`
+export SPARK_LOG_DIR=`pwd`
 env
 
 lsf-spark-submit.sh  /rsrch2/ip/dtfuentes/github/SparkPipeExample/pipeline.py --pipe
