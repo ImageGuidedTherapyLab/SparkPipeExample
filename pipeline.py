@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import time,datetime,string,re,os,ConfigParser
 
 ## https://www.percona.com/blog/2015/10/07/using-apache-spark-mysql-data-analysis/

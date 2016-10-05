@@ -15,4 +15,4 @@ export SPARK_WORK_DIR=/rsrch2/ip/dtfuentes/github/SparkPipeExample/
 export SPARK_LOG_DIR=/rsrch2/ip/dtfuentes/github/SparkPipeExample/
 env
 
-lsf-spark-submit.sh  python /rsrch2/ip/dtfuentes/github/SparkPipeExample/pipeline.py --pipe
+lsf-spark-submit.sh  /rsrch2/ip/dtfuentes/github/SparkPipeExample/pipeline.py --pipe
